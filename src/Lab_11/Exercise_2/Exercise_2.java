@@ -1,10 +1,10 @@
-package Lab_11;
+package Lab_11.Exercise_2;
 import java.io.*;
 
 public class Exercise_2 {
     public static void main(String[] args) {
-        try (FileInputStream input = new FileInputStream("/Users/robertkharisov/IdeaProjects/Lab Assignments/src/Lab_11/input.txt");
-             FileOutputStream output = new FileOutputStream("/Users/robertkharisov/IdeaProjects/Lab Assignments/src/Lab_11/output.txt")) {
+        try (FileInputStream input = new FileInputStream("/Users/robertkharisov/IdeaProjects/Lab Assignments/src/Lab_11/Exercise_2/input.txt");
+             FileOutputStream output = new FileOutputStream("/Users/robertkharisov/IdeaProjects/Lab Assignments/src/Lab_11/Exercise_2/output.txt")) {
             int data;
 
             while ((data = input.read()) != -1) {
