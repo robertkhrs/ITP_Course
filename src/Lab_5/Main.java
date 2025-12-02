@@ -1,4 +1,4 @@
-package Lab_6;
+package Lab_5;
 
 public class Main {
     int seconds;
